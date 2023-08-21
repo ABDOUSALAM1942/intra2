@@ -1,0 +1,123 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 132, 217);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.main_container {
+
+   
+    text-align: center;
+
+}
+
+h3{
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+
+}
+
+.joke {
+    font-size: 70px;
+    color: #16110d;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.btn{
+    background-color: #2b2ee4;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,
+    0,0,0.1),0 6px 6px rgba(0,
+    0,0,0.1);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 40px;
+}
+.btn:active{
+    transform: scale(.98);
+}
+.fas {
+    margin-left: 4px;
+}
+.auteur {
+    margin-left: 45rem;
+} */
+body {
+    background-color: #2c74da; /* Couleur de fond */
+    margin: 0; /* Supprimer les marges par défaut du body */
+    padding: 0; /* Supprimer les espacements par défaut du body */
+    overflow: hidden; /* Empêcher le défilement */
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Remplir l'intégralité de la vue du port */
+}
+
+.joke {
+    text-align: justify;
+    max-width: 80%; /* Ajuster la largeur du texte */
+    margin: 0 auto; /* Centrer horizontalement */
+    padding: 20px;
+    font-size: 65px;
+    color: #fff;
+}
+
+.auteur {
+    margin-top: 10px;
+    margin-left: 50rem;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #123ec3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    width: 30rem;
+    font-size: 22px;
+}
+.btn:active{
+    transform: scale(.98);
+}
+
+.btn i {
+    margin-left: 20px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #223c83;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.icon {
+    margin-right: 10px;
+    font-size: 44px;
+}
